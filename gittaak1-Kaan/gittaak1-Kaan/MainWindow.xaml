@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" Margin="90,58,0,0" VerticalAlignment="Top"/>
         <Image Margin="640,31,10,253" Source="/PXL.png" Stretch="Fill" Name="pxl"/>
-        <Image Margin="400,237,231,85" Source="/Blauw.png" Stretch="Fill" MouseEnter="Image_MouseEnterBlue" MouseLeave="Image_MouseLeave" MouseDown="MouseDownBlue"/>
+        <Image Margin="425,237,206,85" Source="/Blauw.png" Stretch="Fill" MouseEnter="Image_MouseEnterBlue" MouseLeave="Image_MouseLeave" MouseDown="MouseDownBlue"/>
         <Image Margin="400,105,231,217" Source="/Geel.png" Stretch="Fill" MouseEnter="Image_MouseEnterYellow" MouseLeave="Image_MouseLeave" MouseDown="MouseDownYellow"/>
         <Image Margin="176,237,455,85" Source="/Groen.png" Stretch="Fill" MouseEnter="Image_MouseEnterGreen" MouseLeave="Image_MouseLeave" MouseDown="MouseDownGreen" />
         <Image Margin="176,105,454,217" Source="/Rood.png" Stretch="Fill" RenderTransformOrigin="0.548,0.216" MouseEnter="Image_MouseEnterRed" MouseLeave="Image_MouseLeave" MouseDown="MouseDownRed"/>
