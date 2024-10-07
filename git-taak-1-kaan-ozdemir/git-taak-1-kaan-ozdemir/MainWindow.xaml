@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:git_taak_1_kaan_ozdemir"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Git taak 1 Kaan Ozdemir" Height="450" Width="800"
+        Background="LightGray"
+        >
+        
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="56" Margin="67,33,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="159"/>
 
     </Grid>
 </Window>
