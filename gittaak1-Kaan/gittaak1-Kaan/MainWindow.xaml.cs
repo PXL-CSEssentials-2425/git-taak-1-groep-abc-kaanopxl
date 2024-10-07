@@ -20,5 +20,30 @@ namespace gittaak1_Kaan
         {
             InitializeComponent();
         }
+
+        private void Image_MouseEnterRed(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Red;
+        }
+
+        private void Image_MouseEnterYellow(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Yellow;
+        }
+
+        private void Image_MouseEnterBlue(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Blue;
+        }
+
+        private void Image_MouseEnterGreen(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.Green;
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            this.Background = Brushes.LightGray;
+        }
     }
 }
