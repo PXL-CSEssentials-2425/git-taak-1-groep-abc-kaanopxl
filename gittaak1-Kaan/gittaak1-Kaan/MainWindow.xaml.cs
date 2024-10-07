@@ -49,25 +49,27 @@ namespace gittaak1_Kaan
         private void MouseDownRed(object sender, MouseButtonEventArgs e)
         {
             ColorLabel.Text = "Rood: #FF0000";
-
+            informationLabel.Text = "Rood is de kleur van warmte";
         }
         // green image
         private void MouseDownGreen(object sender, MouseButtonEventArgs e)
         {
             ColorLabel.Text = "Groen: #008000";
+            informationLabel.Text = "Groen is de kleur van genezing";
 
         }
         // Yellow image
         private void MouseDownYellow(object sender, MouseButtonEventArgs e)
         {
             ColorLabel.Text = "Geel: #FFFF00";
+            informationLabel.Text = "Geel is de kleur van levenslust";
 
         }
         // blue
         private void MouseDownBlue(object sender, MouseButtonEventArgs e)
         {
             ColorLabel.Text = "Blauw: #0000FF";
-
+            informationLabel.Text = "Blauw is de kleur van intelligentie";
         }
 
 
