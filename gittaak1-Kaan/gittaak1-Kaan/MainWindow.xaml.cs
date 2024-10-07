@@ -45,5 +45,33 @@ namespace gittaak1_Kaan
         {
             this.Background = Brushes.LightGray;
         }
+
+        private void MouseDownRed(object sender, MouseButtonEventArgs e)
+        {
+            ColorLabel.Text = "Rood: #FF0000";
+
+        }
+        // green image
+        private void MouseDownGreen(object sender, MouseButtonEventArgs e)
+        {
+            ColorLabel.Text = "Groen: #008000";
+
+        }
+        // Yellow image
+        private void MouseDownYellow(object sender, MouseButtonEventArgs e)
+        {
+            ColorLabel.Text = "Geel: #FFFF00";
+
+        }
+        // blue
+        private void MouseDownBlue(object sender, MouseButtonEventArgs e)
+        {
+            ColorLabel.Text = "Blauw: #0000FF";
+
+        }
+
+
+
+
     }
 }
