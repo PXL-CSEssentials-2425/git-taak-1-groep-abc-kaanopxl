@@ -11,6 +11,8 @@
         
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="56" Margin="67,33,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Width="159"/>
+        
+        <Image Margin="679,20,40,332" Source="Images/PXL.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
