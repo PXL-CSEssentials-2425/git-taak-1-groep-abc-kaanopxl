@@ -10,5 +10,6 @@
     
     <Grid>
         <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" Margin="90,58,0,0" VerticalAlignment="Top"/>
+        <Image Margin="640,31,10,253" Source="/PXL.png" Stretch="Fill" Name="pxl"/>
     </Grid>
 </Window>
